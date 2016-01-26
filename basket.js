@@ -38,6 +38,8 @@ var myBasket = {
       this.cost = this.cost + price;
     }
   },
+
+  
 }
 
 
