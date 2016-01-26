@@ -1,19 +1,15 @@
 var shopper = require('./basket');
 var assert = require('assert');
 
-describe("TShopping Basket", function(){
-  
 //1. find total cost of basket: 
-// var totalCost = 0
-// for(index in shopper.items){
-//   console.log(shopper.items[index]);
-//   totalCost += shopper.items[index]['price'];
-// // }
 
-//THIS WORKS: for (var i = 0; i < shopper.items.length; i++) {
-//   totalCost = totalCost + shopper.items[i].price;
-// };
-// console.log(totalCost);
+describe("Shopping Basket", function(){
+  it('should tell us the total is ', function(){
+  shopper.totalCost();
+  assert.equal(570, shopper.cost);
+  });
+
+
 
 });
 
