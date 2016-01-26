@@ -14,13 +14,8 @@ Test drive your objects.
 Commit after every passing test. 
 ===============
 
-var shoppingBasket = {
-  
-}
- var
-
-customer
 ===============
+
 find price of the shopping basket. 
 if you have 2 items, both bogof, it will remove the price of one of them. 
 
