@@ -1,0 +1,32 @@
+#Shopping Basket
+We need to find the price of a shopping basket.
+A shopping basket can have multiple items.
+
+Discounts:
+
+10% discount for all shopping baskets over £20
+
+Certain items are buy one get on free, this should be considered.
+
+If the customer has a valid discount card then they get and additional 5% off.
+
+Test drive your objects.
+Commit after every passing test. 
+===============
+
+var shoppingBasket = {
+  
+}
+ var
+
+customer
+===============
+find price of the shopping basket. 
+if you have 2 items, both bogof, it will remove the price of one of them. 
+
+the 10% comes off first. then the discount card. 
+
+Start in small steps, lay out test. Try and test, but sometimes if you're not sure what you're testing, write the code to get it working. But try test to get it to pass. 
+
+Even IronMan had an MVP! 
+
