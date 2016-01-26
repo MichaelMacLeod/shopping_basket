@@ -1,32 +1,39 @@
-var bread = {
+var myBasket = {
+
+items:[
+
+{
+  name:'bread',
   price: 150, 
   bogof: false
-}
+},
 
-var jam = {
+{
+  name:'jam'
   price: 90,
-  bogof: true,
-}
+  bogof: true
+},
 
-var beer = {
+{
+  name:'beer' 
   price: 200, 
   bogof: false
-}
+},
 
-var crisps = {
+{
+  name:'crisps' 
   price: 70, 
   bogof: true
-}
+},
 
-var apples = {
-  price 60,
+{
+  name:'apples' 
+  price: 60, 
   bogof: true
-}
+},
 
-module.exports = bread;
-module.exports = jam;
-module.exports = beer;
-module.exports = crisps;
-module.exports = apples;
+]
+
+module.exports = myBasket;
 
 
