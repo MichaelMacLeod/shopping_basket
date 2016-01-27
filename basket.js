@@ -31,6 +31,7 @@ var myBasket = {
     bogof: true
   }],
 
+};
   totalCost: function(){
     for (var i = 0; i < this.items.length; i++) {
       var item = this.items[i];
@@ -39,7 +40,13 @@ var myBasket = {
     }
   },
 
-  
+  discount: function(){
+    var totalCost = 
+
+    if totalCost >= 20){
+  discount = true;
+}
+}
 }
 
 
